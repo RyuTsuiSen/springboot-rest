@@ -28,24 +28,27 @@
 		<url>git:ssh://git@github.com/RyuTsuiSen/springboot-rest.git</url>
 	</scm>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>fr.trandutrieu.remy</groupId>
+				<artifactId>springboot-socle</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<scope>import</scope>
+				<type>pom</type>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
-
 		<dependency>
 			<groupId>fr.trandutrieu.remy</groupId>
-			<artifactId>springboot-socle</artifactId>
-			<version>${socle.version}</version>
+			<artifactId>springboot-socle-rest</artifactId>
 		</dependency>
-
 	</dependencies>
 
 
-		<build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

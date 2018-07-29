@@ -9,7 +9,7 @@
 
 	<groupId>fr.trandutrieu.remy</groupId>
 	<artifactId>springboot-rest</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -24,7 +24,7 @@
 	<scm>
 		<connection>scm:git:ssh://git@github.com/RyuTsuiSen/springboot-rest.git</connection>
 		<url>git:ssh://git@github.com/RyuTsuiSen/springboot-rest.git</url>
-	  <tag>springboot-rest-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<dependencyManagement>

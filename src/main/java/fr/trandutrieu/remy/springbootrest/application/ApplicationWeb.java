@@ -21,7 +21,7 @@ package fr.trandutrieu.remy.springbootrest.application;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
-import fr.trandutrieu.remy.socle.webservices.rest.springboot.ApplicationWebRestAbstract;
+import fr.trandutrieu.remy.socle.rest.springboot.ApplicationWebRestAbstract;
 
 
 public class ApplicationWeb extends ApplicationWebRestAbstract{

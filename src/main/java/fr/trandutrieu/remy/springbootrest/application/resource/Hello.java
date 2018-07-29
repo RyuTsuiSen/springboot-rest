@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 import fr.trandutrieu.remy.socle.exceptions.BusinessException;
 import fr.trandutrieu.remy.socle.exceptions.BusinessException.BusinessExceptionBuilder;
 import fr.trandutrieu.remy.socle.externalcall.AdapterCall.TYPE_APPEL;
-import fr.trandutrieu.remy.socle.webservices.inout.BusinessResponse;
-import fr.trandutrieu.remy.socle.webservices.rest.Resource;
+import fr.trandutrieu.remy.socle.inout.BusinessResponse;
+import fr.trandutrieu.remy.socle.rest.Resource;
 
 @Component
 @Path("hello")

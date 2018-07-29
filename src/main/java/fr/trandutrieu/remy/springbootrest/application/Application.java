@@ -20,7 +20,7 @@ package fr.trandutrieu.remy.springbootrest.application;
 
 import org.springframework.boot.SpringApplication;
 
-import fr.trandutrieu.remy.socle.webservices.rest.springboot.ApplicationRestAbstract;
+import fr.trandutrieu.remy.socle.rest.springboot.ApplicationRestAbstract;
 
 
 public class Application extends ApplicationRestAbstract{

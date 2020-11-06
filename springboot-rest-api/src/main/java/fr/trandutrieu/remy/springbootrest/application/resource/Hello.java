@@ -1,15 +1,5 @@
 package fr.trandutrieu.remy.springbootrest.application.resource;
 
-import java.util.concurrent.TimeUnit;
-
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.container.AsyncResponse;
-import javax.ws.rs.container.Suspended;
-
-import org.springframework.stereotype.Component;
-
 import fr.trandutrieu.remy.socle.audit.Audit;
 import fr.trandutrieu.remy.socle.audit.Audit.Level;
 import fr.trandutrieu.remy.socle.exceptions.BusinessException;
@@ -18,11 +8,16 @@ import fr.trandutrieu.remy.socle.externalcall.AdapterCall.TYPE_APPEL;
 import fr.trandutrieu.remy.socle.inout.BusinessResponse;
 import fr.trandutrieu.remy.socle.rest.Resource;
 
-@Component
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.container.AsyncResponse;
+import javax.ws.rs.container.Suspended;
+import java.util.concurrent.TimeUnit;
+
 @Path("hello")
 public class Hello implements Resource{
 
-	
 	@GET
 	@Produces("application/json")
 	public BusinessResponse getHello() {
